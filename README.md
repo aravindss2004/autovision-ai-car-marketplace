@@ -74,14 +74,15 @@ AutoVision AI is a modern AI-powered car marketplace that lets users search for 
 | Deployment    | Vercel (recommended)                    |
 
 ---
-
 ## 🛠️ Getting Started
 
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/aravindss2004/autovision-ai-car-marketplace.git
 cd autovision-ai-car-marketplace
 
-
-Create a .env.local file in the root directory and add the following:
+### .env file:
 # DATABASE
 DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE
 
@@ -106,19 +107,3 @@ ARCJET_API_KEY=your_arcjet_key
 
 # CREATE.XYZ (Optional - for waitlist)
 CREATE_XYZ_API_KEY=your_create_xyz_key
-
-🧩 Folder Structure (Simplified):
-/app
-  ├── /api
-  ├── /components
-  ├── /dashboard
-  ├── /hooks
-  ├── /middleware
-  ├── /utils
-/prisma
-  └── schema.prisma
-/public
-  └── assets
-.env.local
-.gitignore
-next.config.js
