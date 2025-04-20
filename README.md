@@ -77,8 +77,6 @@ AutoVision AI is a modern AI-powered car marketplace that lets users search for 
 
 ## 🛠️ Getting Started
 
-### 1. Clone the Repo
-```bash
 git clone https://github.com/aravindss2004/autovision-ai-car-marketplace.git
 cd autovision-ai-car-marketplace
 
